@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Wed Jul 11 08:32:42 CDT 2018
+1.base=C\:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=NATIVE_RESOURCE
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\34
+1.path=lib/armeabi-v7a/libjingle_peerconnection_so.so

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/email_settings">
+        <EditTextPreference
+            android:title="@string/preference_email_address"
+            android:key="preference_email_address"
+            android:defaultValue="@string/email_address" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/security_settings">
+        <CheckBoxPreference
+            android:title="@string/preference_secure_login"
+            android:defaultValue="@string/secure_login"
+            android:key="preference_secure_login" />
+        <EditTextPreference
+            android:title="@string/preference_port"
+            android:defaultValue="@string/port"
+            android:key="preference_port"
+            android:summary="@string/port_default_summary"
+            android:inputType="number"/>
+        <CheckBoxPreference
+            android:title="@string/preference_trust_all_certs"
+            android:defaultValue="@string/trust_all_certs"
+            android:key="preference_trust_all_certs" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/logging_settings">
+        <CheckBoxPreference
+            android:title="@string/preference_log_to_device"
+            android:defaultValue="@string/log_to_device"
+            android:key="preference_log_to_device" />
+        <ListPreference
+            android:title="@string/preference_log_level"
+            android:key="preference_log_level"
+            android:defaultValue="@string/log_level"
+            android:entries="@array/log_levels_array"
+            android:entryValues="@array/log_levels_array" />
+        <EditTextPreference
+            android:title="@string/preference_log_file_name"
+            android:key="preference_log_file_name"
+            android:defaultValue="@string/log_file_name" />
+        <EditTextPreference
+            android:title="@string/preference_max_file_size"
+            android:key="preference_max_file_size"
+            android:inputType="number"
+            android:defaultValue="@string/max_file_size" />
+        <EditTextPreference
+            android:title="@string/preference_max_back_up"
+            android:key="preference_max_back_ups"
+            android:inputType="number"
+            android:defaultValue="@string/max_back_up" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.avaya.mobilevideo.ExampleLoginActivity" >
+
+    <item
+        android:id="@+id/report_issue_item"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Estadisticas" />
+</menu>

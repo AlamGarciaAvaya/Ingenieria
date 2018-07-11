@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_border.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\red_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toggle_dtmf.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\toggle_dtmf.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toggle_endcall.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\toggle_endcall.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_border.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\btn_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hangup.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\hangup.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp_activity_dial.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\layout-sw600dp\\activity_dial.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_enlarge.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\enlarge.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_videocall.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\videocall.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_audioon.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\audioon.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_videoswitch_off.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\videoswitch_off.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_imageedit_1_7741237077.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\imageedit_1_7741237077.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_background.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\app_background.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_call.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\layout\\activity_call.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ajustes.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\layout\\activity_ajustes.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toggle_hold.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\toggle_hold.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_videooff.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\videooff.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toggle_audio_mute.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\toggle_audio_mute.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_videoswitch.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\videoswitch.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_imageedit_2_2835506998.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\imageedit_2_2835506998.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toggle_video_enable.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\toggle_video_enable.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_audiooff.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\audiooff.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_manual_session.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\layout\\activity_manual_session.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_addvideo.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\addvideo.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toggle_camera.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\toggle_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp_activity_login.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\layout-sw600dp\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_removevideo.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\removevideo.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_videoon.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\videoon.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_transparent.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\btn_transparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avaya_logo_mobile.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\avaya_logo_mobile.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_launchicon.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\launchicon.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_dtmf_popup.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\layout\\dtmf_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_call.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\call.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\menu_issue_report.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\menu\\issue_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\xml_preferences.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dtmf.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\dtmf.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hold.png.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\hold.png"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toggle_video_mute.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\drawable\\toggle_video_mute.xml"
+    },
+    {
+        "merged": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dial.xml.flat",
+        "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\layout\\activity_dial.xml"
+    }
+]

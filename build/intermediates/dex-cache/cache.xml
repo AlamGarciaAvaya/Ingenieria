@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\jgleeson\Documents\AMV\dev\Mobile Video - Client Reference Apps\Android\MobileVideoReferenceClient\app\libs\avaya-client-sdk-android-3.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="481caedd989acc0fe6a4d54700dcb87234bc40a7">
+        <dex dex="C:\Users\jgleeson\Documents\AMV\dev\Mobile Video - Client Reference Apps\Android\MobileVideoReferenceClient\app\build\intermediates\pre-dexed\debug\avaya-client-sdk-android-3.0.1-fecf2228bef6c97bcb93f51664fe9ceec18e6398.jar" />
+    </item>
+    <item
+        jar="C:\Users\jgleeson\Documents\AMV\dev\Mobile Video - Client Reference Apps\Android\MobileVideoReferenceClient\app\libs\log4j-1.2.17.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4f90475694c41965c9a0c8bac53ea5c690dea446">
+        <dex dex="C:\Users\jgleeson\Documents\AMV\dev\Mobile Video - Client Reference Apps\Android\MobileVideoReferenceClient\app\build\intermediates\pre-dexed\debug\log4j-1.2.17-c64195b67e408389248cb330729e52381471851f.jar" />
+    </item>
+    <item
+        jar="C:\Users\jgleeson\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\Users\jgleeson\Documents\AMV\dev\Mobile Video - Client Reference Apps\Android\MobileVideoReferenceClient\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-1f139c6e125e1d5c3e4d14dd748c84276307c735.jar" />
+    </item>
+    <item
+        jar="C:\Users\jgleeson\Documents\AMV\dev\Mobile Video - Client Reference Apps\Android\MobileVideoReferenceClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\jgleeson\Documents\AMV\dev\Mobile Video - Client Reference Apps\Android\MobileVideoReferenceClient\app\build\intermediates\pre-dexed\debug\classes-79f2b66b18b42ca52fc9cb2a49b0794d364cd000.jar" />
+    </item>
+    <item
+        jar="C:\Users\jgleeson\Documents\AMV\dev\Mobile Video - Client Reference Apps\Android\MobileVideoReferenceClient\app\libs\android-logging-log4j-1.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bee823e6955d3a5806700026f838ebbca907ac7a">
+        <dex dex="C:\Users\jgleeson\Documents\AMV\dev\Mobile Video - Client Reference Apps\Android\MobileVideoReferenceClient\app\build\intermediates\pre-dexed\debug\android-logging-log4j-1.0.3-39864bc1214d7f03f9325730973c30b5d5641fcb.jar" />
+    </item>
+    <item
+        jar="C:\Users\jgleeson\Documents\AMV\dev\Mobile Video - Client Reference Apps\Android\MobileVideoReferenceClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\jars\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\jgleeson\Documents\AMV\dev\Mobile Video - Client Reference Apps\Android\MobileVideoReferenceClient\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-98864711c5d54bde768f2b2e658cf6be0919344d.jar" />
+    </item>
+
+</items>

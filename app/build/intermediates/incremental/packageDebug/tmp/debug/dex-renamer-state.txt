@@ -1,0 +1,4 @@
+#Wed Jul 11 08:32:42 CDT 2018
+base.0=C\:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\34
+path.0=classes.dex
+renamed.0=classes.dex

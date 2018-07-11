@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="1dp"
+        android:background="@android:color/darker_gray">
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="3"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dtmf1"
+                android:text="@string/dtmf_1"
+                android:tag="1"
+                android:onClick="dtmf" />
+
+            <Button
+                android:id="@+id/dtmf2"
+                android:text="@string/dtmf_2"
+                android:tag="2"
+                android:onClick="dtmf" />
+
+            <Button
+                android:id="@+id/dtmf3"
+                android:text="@string/dtmf_3"
+                android:tag="3"
+                android:onClick="dtmf" />
+
+            <Button
+                android:id="@+id/dtmf4"
+                android:text="@string/dtmf_4"
+                android:tag="4"
+                android:onClick="dtmf" />
+
+            <Button
+                android:id="@+id/dtmf5"
+                android:text="@string/dtmf_5"
+                android:tag="5"
+                android:onClick="dtmf" />
+
+            <Button
+                android:id="@+id/dtmf6"
+                android:text="@string/dtmf_6"
+                android:tag="6"
+                android:onClick="dtmf" />
+
+            <Button
+                android:id="@+id/dtmf7"
+                android:text="@string/dtmf_7"
+                android:tag="7"
+                android:onClick="dtmf" />
+
+            <Button
+                android:id="@+id/dtmf8"
+                android:text="@string/dtmf_8"
+                android:tag="8"
+                android:onClick="dtmf" />
+
+            <Button
+                android:id="@+id/dtmf9"
+                android:text="@string/dtmf_9"
+                android:tag="9"
+                android:onClick="dtmf" />
+
+            <Button
+                android:id="@+id/dtmf_asterisk"
+                android:text="@string/dtmf_asterisk"
+                android:tag="*"
+                android:onClick="dtmf" />
+
+            <Button
+                android:id="@+id/dtmf0"
+                android:text="@string/dtmf_0"
+                android:tag="0"
+                android:onClick="dtmf" />
+
+            <Button
+                android:id="@+id/dtmf_hash"
+                android:text="@string/dtmf_hash"
+                android:tag="#"
+                android:onClick="dtmf" />
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/dismiss"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dtmf_dismiss"
+            android:onClick="dismissDtmf"/>
+    </LinearLayout>
+</LinearLayout>
