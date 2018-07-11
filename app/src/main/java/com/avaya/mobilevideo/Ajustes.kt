@@ -21,8 +21,6 @@ import java.io.IOException
 import android.graphics.Bitmap
 
 
-
-
 class Ajustes : Activity() {
     var orgUri: Uri? = null
     var uriFromPath:Uri? = null
@@ -50,7 +48,6 @@ class Ajustes : Activity() {
                 editor.apply()
             }
         }
-
     }
     fun guardarajustes() {
         val myPreferences = "myPrefs"

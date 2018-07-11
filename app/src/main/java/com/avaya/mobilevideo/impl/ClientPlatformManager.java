@@ -12,11 +12,6 @@ import android.content.Context;
 import com.avaya.clientplatform.api.ClientPlatform;
 import com.avaya.clientplatform.api.ClientPlatformFactory;
 
-/**
- * Client platform factory class
- *
- * @author Avaya Inc
- */
 public class ClientPlatformManager {
 
     private static ClientPlatform sClientPlatform;

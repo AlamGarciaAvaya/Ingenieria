@@ -1,10 +1,3 @@
-/**
- * CallActivityImpl.java <br>
- * Copyright 2014-2015 Avaya Inc. <br>
- * All rights reserved. Usage of this source is bound to the terms described the file
- * MOBILE_VIDEO_SDK_LICENSE_AGREEMENT.txt, included in this SDK.<br>
- * Avaya – Confidential & Proprietary. Use pursuant to your signed agreement or Avaya Policy.
- */
 package com.avaya.mobilevideo.impl;
 
 import android.app.Activity;
@@ -87,6 +80,12 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
             mTimerHandler.postDelayed(mCallTimeChecker, Constants.TIMER_INTERVAL);
         }
     };
+
+    public static void setPreferredVideoResolution(VideoResolution preferredVideoResolution) {
+        if (preferredVideoResolution != null) {
+            mPreferredVideoResolution = preferredVideoResolution;
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -270,9 +269,11 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
     protected void setCalleeNumberDisplay(TextView calleeNumberDisplay) {
         this.mCalleeNumberDisplay = calleeNumberDisplay;
     }
+
     protected void setMuteVideo(ToggleButton muteVideo) {
         this.mMuteVideo = muteVideo;
     }
+
     public void endCall(View V) {
         endCall();
     }
@@ -342,11 +343,6 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
         }
     }
 
-    /**
-     * Toggle enable audio
-     *
-     * @param v
-     */
     public void toggleEnableAudio(View v) {
         try {
             mLogger.d("Toggle enable audio");
@@ -360,11 +356,6 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
         }
     }
 
-    /**
-     * Switch video between front and back camera
-     *
-     * @param v
-     */
     public void switchVideo(View v) {
         try {
             mLogger.d("Switch camera");
@@ -607,7 +598,7 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
     @Override
     public void onSessionAudioMuteStatusChanged(Session session, boolean muted) {
         mLogger.i("Session audio mute status changed");
-        Log.d("SDK", "Mute status cambiado" );
+        Log.d("SDK", "Mute status cambiado");
 
     }
 
@@ -710,7 +701,7 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
 
     @Override
     public void onQualityChanged(Session session, final int i) {
-        Log.d("SDK", "Calidad Cambio"  + i);
+        Log.d("SDK", "Calidad Cambio" + i);
 
         mLogger.d("Quality changed: " + i);
 
@@ -862,30 +853,6 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
         return ((WindowManager) getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
     }
 
-    private class VideoListenerClass implements VideoListener {
-        @Override
-        public void renderingStart(VideoSurface videoSurface) {
-            try {
-                if (videoSurface == mPreviewView) {
-                    mDevice.setLocalVideoView(videoSurface);
-                } else if (videoSurface == mRemoteVideoSurface) {
-                    mDevice.setRemoteVideoView(videoSurface);
-                } else {
-                    mLogger.e("Unknown surface");
-                }
-            } catch (Exception e) {
-                mLogger.e("Exception in renderingStart()", e);
-                displayMessage("Rendering start exception: " + e.getMessage());
-            }
-        }
-
-        @Override
-        public void frameSizeChanged(final int width, final int height, final Participant endpoint, final VideoSurface videoView) {
-            Log.d("SDK", "Tamaño Cambiado");
-
-        }
-    }
-
     private void displayMessage(final String message) {
         displayMessage(message, false);
     }
@@ -998,21 +965,38 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
         }
     }
 
-    public static void setPreferredVideoResolution(VideoResolution preferredVideoResolution) {
-        if (preferredVideoResolution != null) {
-            mPreferredVideoResolution = preferredVideoResolution;
-        }
-    }
-
     protected boolean getCallOnHold() {
         return mCallOnHold;
     }
-
 
     @Override
     public void onGetMediaError(Session session) {
         mLogger.e("Get media error");
         displayMessage(getResources().getString(R.string.get_media_error));
+    }
+
+    private class VideoListenerClass implements VideoListener {
+        @Override
+        public void renderingStart(VideoSurface videoSurface) {
+            try {
+                if (videoSurface == mPreviewView) {
+                    mDevice.setLocalVideoView(videoSurface);
+                } else if (videoSurface == mRemoteVideoSurface) {
+                    mDevice.setRemoteVideoView(videoSurface);
+                } else {
+                    mLogger.e("Unknown surface");
+                }
+            } catch (Exception e) {
+                mLogger.e("Exception in renderingStart()", e);
+                displayMessage("Rendering start exception: " + e.getMessage());
+            }
+        }
+
+        @Override
+        public void frameSizeChanged(final int width, final int height, final Participant endpoint, final VideoSurface videoView) {
+            Log.d("SDK", "Tamaño Cambiado");
+
+        }
     }
 }
 

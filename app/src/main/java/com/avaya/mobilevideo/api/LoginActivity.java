@@ -10,6 +10,5 @@ package com.avaya.mobilevideo.api;
 import android.view.View;
 
 public interface LoginActivity {
-
     void login(View v);
 }

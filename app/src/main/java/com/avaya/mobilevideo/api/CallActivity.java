@@ -9,16 +9,8 @@ package com.avaya.mobilevideo.api;
 
 import android.view.View;
 
-/**
- * Interface that your call activity should implement
- * @author Avaya Inc
- */
 public interface CallActivity {
 
-    /**
-     * End call
-     * @param V
-     */
     void endCall(View V);
 
     /**

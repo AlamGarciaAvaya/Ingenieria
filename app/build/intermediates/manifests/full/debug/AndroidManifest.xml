@@ -29,7 +29,8 @@
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@drawable/videocall"
-        android:label="AMV - Alpha" >
+        android:label="AMV - Alpha"
+        android:testOnly="true" >
         <activity
             android:name="com.avaya.mobilevideo.ExampleLoginActivity"
             android:screenOrientation="portrait"
