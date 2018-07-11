@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "C:\\Android\\Ingenieria\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\garcia76\\Desktop\\SDK\\MobileVideoReferenceClient\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "C:\\Android\\Ingenieria\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",
