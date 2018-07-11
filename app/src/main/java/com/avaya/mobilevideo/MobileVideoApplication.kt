@@ -16,10 +16,7 @@ class MobileVideoApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         mLogger.d("onCreate()")
-
         sdkVersion = ClientPlatformFactory.getClientPlatformInterface(this).version
-
-        // Setup handler for uncaught exceptions.
         Thread.setDefaultUncaughtExceptionHandler { thread, e -> handleUncaughtException(thread, e) }
     }
     fun handleUncaughtException(thread: Thread, e: Throwable) {

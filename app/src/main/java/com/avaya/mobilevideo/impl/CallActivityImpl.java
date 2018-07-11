@@ -732,6 +732,7 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
         displayMessage(getResources().getString(R.string.capacity_reached));
     }
 
+
     @Override
     public void onConnLost(User user) {
         mLogger.w("Connection lost");
@@ -843,12 +844,6 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
             displayMessage("Create video components exception: " + e.getMessage());
         }
     }
-
-    /**
-     * Get display
-     *
-     * @return display
-     */
     private Display getDisplay() {
         return ((WindowManager) getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
     }
@@ -997,6 +992,7 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
             Log.d("SDK", "Tamaño Cambiado");
 
         }
+
     }
 }
 
