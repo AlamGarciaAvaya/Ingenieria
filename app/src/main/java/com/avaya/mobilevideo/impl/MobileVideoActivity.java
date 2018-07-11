@@ -29,7 +29,7 @@ public abstract class MobileVideoActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         String myPreferences = "myPrefs";
         SharedPreferences sharedPreferences = this.getSharedPreferences(myPreferences, 0);
-        String debug = sharedPreferences.getString("debug", "0");
+        String debug = sharedPreferences.getString("debug", "1");
         int deb = Integer.parseInt(debug);
         switch (deb){
             case 0:
