@@ -239,33 +239,16 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
         finish();
     }
 
-    /**
-     * @param savedInstanceState
-     */
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
     }
 
-    /**
-     * Abstract set controls method
-     */
     protected abstract void setControls();
-
-    /**
-     * Set display name field
-     *
-     * @param displayNameTextView
-     */
     protected void setDisplayNameField(TextView displayNameTextView) {
         this.mDisplayNameTextView = displayNameTextView;
     }
 
-    /**
-     * Set calee number display
-     *
-     * @param calleeNumberDisplay
-     */
     protected void setCalleeNumberDisplay(TextView calleeNumberDisplay) {
         this.mCalleeNumberDisplay = calleeNumberDisplay;
     }
@@ -288,11 +271,6 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
         }
     }
 
-    /**
-     * Toggle mute audio
-     *
-     * @param v
-     */
     public void toggleMuteAudio(View v) {
         try {
             mLogger.d("Toggle mute audio");
@@ -325,11 +303,6 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
         }
     }
 
-    /**
-     * Toggle mute video
-     *
-     * @param v
-     */
     public void toggleMuteVideo(View v) {
         try {
             mLogger.d("Toggle mute video");
@@ -428,11 +401,6 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
         }
     }
 
-    /**
-     * Toggle enable video
-     *
-     * @param v
-     */
     public void toggleEnableVideo(View v) {
         try {
             mLogger.d("Toggle enable video");
@@ -443,10 +411,6 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
             displayMessage("Enable video exception: " + e.getMessage());
         }
     }
-
-    /**
-     * Uncheck mute video control
-     */
     private void uncheckMuteVideoControl() {
         try {
             if (mMuteVideo != null) {
@@ -458,9 +422,6 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
         }
     }
 
-    /**
-     * Set calee display information
-     */
     private void setCalleeDisplayInformation(final SessionState sessionState) {
         try {
             runOnUiThread(new Runnable() {
@@ -481,9 +442,6 @@ public abstract class CallActivityImpl extends MobileVideoActivity implements Se
         }
     }
 
-    /**
-     * Hang-up the call
-     */
     private void hangup() {
         try {
             mLogger.i("Hang-up");

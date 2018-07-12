@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jul 11 12:54:44 CDT 2018
+#Wed Jul 11 22:11:26 CDT 2018
 2.base=C\:\\Android\\Ingenieria\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 0.path=classes.dex
 2.baseType=DIRECTORY

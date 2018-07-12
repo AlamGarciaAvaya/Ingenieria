@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\Android\\Ingenieria\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Android\\Ingenieria\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Android\\Ingenieria\\app\\build\\intermediates\\res\\merged\\debug\\drawable_audiooff.png.flat",
+        "source": "C:\\Android\\Ingenieria\\app\\src\\main\\res\\drawable\\audiooff.png"
     },
     {
         "merged": "C:\\Android\\Ingenieria\\app\\build\\intermediates\\res\\merged\\debug\\drawable_addvideo.png.flat",
         "source": "C:\\Android\\Ingenieria\\app\\src\\main\\res\\drawable\\addvideo.png"
     },
     {
-        "merged": "C:\\Android\\Ingenieria\\app\\build\\intermediates\\res\\merged\\debug\\drawable_audiooff.png.flat",
-        "source": "C:\\Android\\Ingenieria\\app\\src\\main\\res\\drawable\\audiooff.png"
+        "merged": "C:\\Android\\Ingenieria\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Android\\Ingenieria\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "C:\\Android\\Ingenieria\\app\\build\\intermediates\\res\\merged\\debug\\drawable_imageedit_2_2835506998.png.flat",
